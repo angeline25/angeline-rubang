@@ -1,0 +1,88 @@
+a {
+	text-decoration: none;
+}
+
+.button {
+	background: light-pink;
+	color: white;
+	padding: 10px 25px;
+}
+
+.button:hover {
+	background: black;
+	color: pink;
+}
+
+a {
+	text-decoration: none;
+}
+
+#main-menu {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4,lfr);
+}
+
+.main-header {
+	margin-bottom: 10px;
+	color: white;
+	text-align: center;
+	font-family: GOUDY STOUT;
+}
+
+.button {
+	background: orange;
+	color: white;
+	padding: 10px 25px;
+}
+
+.button:hover; {
+	background: #c46eal;
+	color: black;
+}
+
+.showcase {
+	margin-bottom: 20px;
+	padding: 250px;
+	background-image: url(../images/haha.jpg);
+	background-repeat: no repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #9f8260;
+}
+
+.showcase:hover {
+	background: #496eab
+	color: black;
+}
+
+.main-article {
+	background: #d16a9a;
+	padding: 100px;
+	margin-bottom: 10px;
+	color: white;
+	text-align: center;
+	font-family: GOUDY STOUT;
+}
+
+.main-article:hover {
+	background: #d4af83
+	color: black;
+}
+
+.footer {
+	background: #c779a5;
+	padding: 100px;
+	margin-bottom: 10px;
+	color: white;
+	text-align: center;
+	font-family: GOUDY STOUT;
+}
+
+.footer:hover {
+	background: #659ac7;
+	color: black;
+}

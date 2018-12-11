@@ -1,0 +1,59 @@
+a{
+	text-decoration:none;
+    font-family: impact;
+}
+
+.button{
+	background:url(../images/wow.jpg);
+	color:black;
+	padding: 10px 25px;
+}
+
+.button:hover{
+	background:gray;
+	color:white;
+}
+#main-menu{
+	margin:0;
+	padding:0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.body {
+	border: 10px;
+	color: black;
+	text-align: center;
+	font-family: impact;
+}
+
+.main-header {
+	margin-bottom: 10px;
+}
+
+/* SHOWCASE SECTION */
+
+.showcase {
+	margin-bottom: 500px;
+	padding: 250px;
+	background-image: url(../image/haha.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0 0 5px #9f8260;
+	text-align: center;
+	font-family: impact;
+}
+
+/* MAIN ARTICLE SECTION */
+
+.main-article {
+	margin-bottom: 20px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 3fr 1fr;
+	font-family: impact;
+}
