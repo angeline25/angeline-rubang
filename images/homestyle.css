@@ -1,0 +1,113 @@
+a{
+	text-decoration:none;
+}
+
+.button{
+	background:pink;
+	color:white;
+	padding: 10px 25px;
+}
+
+.button:hover{
+	background:purple;
+	color:black;
+}
+
+#main-menu{
+	list-style: none;
+	margin:0;
+	padding:0;
+	text-align: center;
+	display: grid;
+	grip-gap: 20px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.body {
+	border: 10px;
+	color: black;
+	text-align:center;
+}
+
+.main-header {
+	color: white;
+	text-align: center;
+	margin: 20px;
+	
+}
+
+.main-header:hover {
+	background: violet;
+	color: black;
+}
+.showcase{
+	margin-bottom: 20px;
+	padding: 100px;
+	background-image: url(../image/haha.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #9f8260;
+}
+
+.showcase:hover{
+	margin-bottom: 20px;
+	padding: 100px;
+	background-image: url(../image/haha.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #9f8260;
+} 
+	
+.main-article{
+	margin-bottom:20px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 3fr 1fr;
+}
+
+.main-article-left{
+	background:#ffdf9e;
+	padding:20px;
+	display:grid;
+	grid-gap:50px;
+	grid-template-columns:1fr 1fr;
+	box-shadow: 0 0 5px #9f8260;
+}
+
+.main-aticle-left p{
+	margin:40px 0 60px 0;
+}
+.main-article-left h3{
+	margin-top:20px;
+	text-align:center;
+	background:#ffdf9e;
+	box-shadow: 0 0 10px #9f8260;
+}
+
+.main-article-right{
+	text-align:center;
+	background:#ffdf9e;
+	padding:40px;
+	box-shadow:0 0 10px #9f8260;
+}
+
+.main-article-right p{
+	text-align: justify;
+	padding: 40px;
+	margin-bottom: 40px;
+	
+}
+.main-article-right h4{
+	margin-top:65px;
+	text-align: center;
+	background:#ffdf9e;
+	box-shadow: 0 0 10 #9f8260;
+}
+.footer {
+	padding: 2px;
+	background: #42372c;
+	color: #fff;
+	text-align:center;
+	margin-bottom: 10px;
+	box-shadow: 0 0 10px #9f8260;
+}
